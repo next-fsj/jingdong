@@ -993,6 +993,13 @@ overflow: hidden;
 }
 #assists1{
 	height: 128px;
+	width: 330px;
+
+	position: absolute;
+	background: #FFF;
+	left: 0px;
+	bottom: -1px;
+     background:rgba(255, 255, 255, 0.7);
 }
 #ebap_fore1{
 	background: url(../image/clothesicon.png) no-repeat 0px 0px;
@@ -1177,6 +1184,183 @@ overflow: hidden;
 
 
 }
+/*客户美容*/
+.ghmz{
+	width: 1210px;
+	height: 578px;
+	margin: 0 auto;
+	margin-bottom: 30px; 
+}
+.ghmz_banner{
+	width: 1210px;
+	height: 474px;
+
+}
+.ghmz_side{
+	width: 210px;
+	height: 474px;
+	float: left;
+	position: relative;
+}
+.ghmz_side a{
+	display: block;
+	overflow: hidden;
+	width: 210px;
+	height: 474px;
+}
+.ghmz_centra a{
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid #EDEDED;
+	border-right: 1px solid #EDEDED;
+	font-size: 0;
+
+}
+.ghmz_centra{
+	width: 340px;
+	height: 474px;
+	float: left;
+}
+.ghmz_right{
+	width: 660px;
+	height: 474px;
+	float: left;
+}
+.ghmz_right a{
+	float: left;
+	display: block;
+	font-size: 0;
+		border-bottom: 1px solid #EDEDED;
+	border-right: 1px solid #EDEDED;
+
+}
+.ghmz_themes{
+	width: 200px;
+	height: 92px;
+	padding-left: 10px;
+	background: rgba(255, 255, 255, 0.5) none;
+	position: absolute;
+	left: 0px;
+	bottom: 145px;
+
+}
+.ghmz_themes li{
+	width: 67px;
+	height: 26px;
+	padding-left: 31px;
+	line-height: 26px;
+	font-size: 14px;
+	background: url(../image/cosmeticsicon.png) no-repeat 0px 0px;
+	float: left;
+	margin: 10px 0;
+}
+
+#ghmz_themes1{
+	background: url(../image/cosmeticsicon.png) no-repeat 0px -26px;
+}
+#ghmz_themes2{
+	background: url(../image/cosmeticsicon.png) no-repeat 0px -52px;
+}
+#ghmz_themes3{
+	background: url(../image/cosmeticsicon.png) no-repeat 0px -78px;
+}
+.ghmz_assists{
+	width: 210px;
+	height: 124px;
+	padding-top: 21px;
+	background: rgba(255, 255, 255, 0.7) none;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+
+/*手机商城*/
+.lazy-clothes{
+	width: 1210px;
+	height: 578px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.clothes{
+	width: 1210px;
+	height: 511px;}
+.mz{
+	width: 1210px;
+	height: 474px;
+}
+.side{
+	width: 330px;
+	height: 475px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 440px;
+	height: 474px;
+	float: left;
+}
+.slider a{
+	display: block;
+    float: left;
+}
+.htc{
+	border-right: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	height: 238px;
+	float: left;
+}
+
+.main_extra{
+	width: 440px;
+	height: 474px;
+	float: left;
+}
+.extra_fore{
+	float: left;
+	width: 219px;
+	height: 117px;
+	border-right: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	background: red;
+	overflow: hidden;
+
+}
+
+.themes{
+	width: 305px;
+	height: 26px;
+	position: absolute;
+	background: #FFF;
+	left: 0px;
+	bottom: 192px;
+	padding:10px 0 10px 25px;
+	background:rgba(255, 255, 255, 0.5);
+	filter:alpha(opacity=50);
+
+}
+.themes_fore{
+	display: block;
+	width: 67px;
+	height: 26px;
+	padding-left: 31px;
+	line-height: 26px;
+	font-size: 14px;
+	background: url(../image/mobilesicon.png) no-repeat 0px 0px;
+	float: left;
+}
+.themes_fore:hover{
+	color:#C81623;
+}
+#themes_fore1{
+	background: url(../image/mobilesicon.png) no-repeat 0px -26px;
+	
+}
+#themes_fore2{
+	background: url(../image/mobilesicon.png) no-repeat 0px -52px;
+	
+}
 .assists{
 	width: 330px;
 	height: 193px;
@@ -1186,4 +1370,83 @@ overflow: hidden;
 	bottom: -1px;
 	background:rgba(255, 255, 255, 0.7);
 	filter:alpha(opacity=70);
-｝
+
+
+}
+.assists_top{
+	width: 330px;
+	height: 48px;
+	padding-top: 21px;
+}
+.assists_top li{
+	float: left;
+	width: 137px;
+	height: 24px;
+	padding-left: 25px;
+	
+}
+.assists_top a{
+	font-size: 14px;
+    line-height: 24px;
+}
+.assists_top a:hover{
+	color:#C81623;
+}
+.words{
+	width: 330px;
+	height: 122px;
+
+}
+.words li{
+	width: 135px;
+	height: 96px;
+	padding-left: 25px;
+	padding-top: 7px;
+	float: left;
+}
+.words a{
+	display: block;
+	float: left;
+	width: 50px;
+	height: 24px;
+	margin-right: 10px;
+	line-height: 24px;
+	font-family: "宋体";
+
+}
+.color{
+	color:#C81623;
+}
+.words a:hover{
+	color:#C81623;
+}
+.brands_fore {
+	border-right: 1px dashed #CCC;
+	width: 120px;
+	height: 40px;
+	float: left;
+
+}
+#brands_fore1{
+	border:none;
+}
+/*家电服务*/
+.themes_fore3{
+	background: url(../image/electronicsicon.png) no-repeat 0px 0px;
+	float: left;
+
+}
+#themes_fore4{
+	float: right;
+	background: url(../image/electronicsicon.png) no-repeat 0px -26px;
+}
+/*电脑数码*/
+.themes_fore5{
+	background: url(../image/digitalsicon.png) no-repeat 0px 0px;
+	float: left;
+
+}
+#themes_fore6{
+	float: right;
+	background: url(../image/digitalsicon.png) no-repeat 0px -26px;
+}
