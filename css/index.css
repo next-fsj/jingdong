@@ -397,16 +397,15 @@ text-decoration: none;
 	float: left;
 	position: relative;
 }
+
 .baner2 a{
 	float: left;
 	display: block;
-    width: 730px;
-	height: 454px;
 	background:yellow;
 	font-size: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 0,
 }
 .btnL{
  width:30px;
@@ -420,6 +419,11 @@ overflow: hidden;
  opacity: 0.5;
 
 }
+.btnL img{
+	display: block;
+	margin-left: -40px;
+
+}
 .btnR{
       width:30px;
       height:70px;
@@ -430,6 +434,35 @@ overflow: hidden;
       z-index: 20;
       overflow: hidden; 
       opacity: 0.5;
+}
+.baner2_1{
+	width: 126px;
+	height: 15px;
+	position: absolute;
+	bottom: 10px;
+	left:50%;
+    margin-left: -63px;
+    float: left;
+    list-style: none;
+    z-index: 9999;
+}
+.baner2_1 li{
+	display: block;
+	width: 15px;
+	height: 15px;
+	float: left;
+    list-style-type: none;
+    margin-right: 6px;
+    background:#DEDEDE;
+    border-radius:8px;
+    text-align:center;
+    line-height:15px;
+    color: #666;
+    cursor:pointer;
+}
+#hot{
+	background: red;
+	color:#FAFAFA;
 }
 .baner3{
 	width:248px;
